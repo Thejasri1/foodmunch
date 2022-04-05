@@ -1,33 +1,32 @@
-.foodmunch-logo{
+.foodmunch-logo {
   height: 80px;
-  width:80px;
+  width: 80px;
 }
-#home{
+#home {
   color: black;
 }
-#why-choose-us{
+#why-choose-us {
   color: black;
 }
-#explore-menu{
+#explore-menu {
   color: black;
 }
-#delivery-and-payments{
+#delivery-and-payments {
   color: black;
 }
-#follow-us{
+#follow-us {
   color: black;
 }
-.banner-image{
+.banner-image {
   height: 100vh;
   width: 100vw;
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
   background-image: cover;
-  
 }
-.heading{
+.heading {
   color: white;
 }
-.button-view-menu{
+.button-view-menu {
   color: white;
   background-color: darkgoldenrod;
   border: 1px solid darkgoldenrod;
@@ -35,18 +34,18 @@
   border-radius: 5px;
   height: 30px;
 }
-.order-now-button{
+.order-now-button {
   color: darkgoldenrod;
   border: 1px solid darkgoldenrod;
   background-color: transparent;
 }
-.food-service-image{
+.food-service-image {
   height: 100px;
   width: 100px;
   text-align: center;
   margin-left: 50px;
 }
-.card-container{
+.card-container {
   border-radius: 20px;
   background-color: whitesmoke;
   width: 300px;
@@ -55,29 +54,32 @@
   align-content: center;
   text-align: center;
 }
-.container-for-explore-menu{
+.container-for-explore-menu {
   background-color: whitesmoke;
   border-radius: 20px;
   width: 250px;
- 
 }
-.explore-menu-images{
+.explore-menu-images {
   border-radius: 20px;
   height: 200px;
-  width: 220px;margin: 5px;
+  width: 220px;
+  margin: 5px;
 }
-.view-all{
-  color:darkgoldenrod;
+.view-all {
+  color: darkgoldenrod;
 }
-.delivery-images{
+.delivery-images {
   height: 100px;
   width: 100px;
   margin: 10px;
 }
-.container-for-redeem-gift{
+.container-for-redeem-gift {
   background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.card-for-follow-us-footer{
+.card-for-follow-us-footer {
   background-color: navy;
   height: 300px;
   width: 100%;
