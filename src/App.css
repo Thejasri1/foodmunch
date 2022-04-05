@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.foodmunch-logo{
+  height: 80px;
+  width:80px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home{
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#why-choose-us{
+  color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#explore-menu{
+  color: black;
+}
+#delivery-and-payments{
+  color: black;
+}
+#follow-us{
+  color: black;
+}
+.banner-image{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  background-image: cover;
+  
+}
+.heading{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button-view-menu{
+  color: white;
+  background-color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+  margin-right: 20px;
+  border-radius: 5px;
+  height: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.order-now-button{
+  color: darkgoldenrod;
+  border: 1px solid darkgoldenrod;
+  background-color: transparent;
+}
+.food-service-image{
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  margin-left: 50px;
+}
+.card-container{
+  border-radius: 20px;
+  background-color: whitesmoke;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+.container-for-explore-menu{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  width: 250px;
+ 
+}
+.explore-menu-images{
+  border-radius: 20px;
+  height: 200px;
+  width: 220px;margin: 5px;
+}
+.view-all{
+  color:darkgoldenrod;
+}
+.delivery-images{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.container-for-redeem-gift{
+  background-color: wheat;
+}
+.card-for-follow-us-footer{
+  background-color: navy;
+  height: 300px;
+  width: 100%;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
 }
