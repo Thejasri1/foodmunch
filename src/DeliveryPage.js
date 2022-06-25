@@ -2,7 +2,7 @@ import React from "react";
 
 const DeliveryPage = () => {
   return (
-    <div className="container">
+    <div className="container pt-5">
       <div className="row">
         <div className="col-12 col-sm-12 col-md-6">
           <h1>
@@ -45,10 +45,10 @@ const DeliveryPage = () => {
       <div className="container-for-redeem-gift mt-5 p-5">
         <div className="col-12 col-sm-12 col-md-6">
           <h1>Thank you for being a valuable customer to us.</h1>
-          <p>We have a surprise gift for you</p>
-          <button className="button-view-menu">Redeem Gift</button>
+          <p className="pb-5">We have a surprise gift for you</p>
+          <button className="button-view-menu mb-5">Redeem Gift</button>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 mt-4">
+        <div className="col-12 col-sm-12 col-md-6 ">
           <img
             src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
             className="explore-menu-images"
