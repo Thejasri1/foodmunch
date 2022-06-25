@@ -1,27 +1,42 @@
+* {
+  font-family: "San serif";
+}
 .foodmunch-logo {
   height: 80px;
   width: 80px;
 }
-#home {
+#home :hover {
   color: black;
+  background-color: darkgoldenrod;
 }
-#why-choose-us {
+#why-choose-us :hover {
   color: black;
+  background-color: darkgoldenrod;
 }
-#explore-menu {
+#explore-menu:hover {
   color: black;
+  background-color: darkgoldenrod;
 }
-#delivery-and-payments {
+#delivery-and-payments :hover {
   color: black;
+  background-color: darkgoldenrod;
 }
-#follow-us {
+#follow-us :hover {
   color: black;
+  background-color: darkgoldenrod;
+}
+a {
+  color: #ffffff;
+}
+a :hover {
+  color: darkgoldenrod;
 }
 .banner-image {
   height: 100vh;
   width: 100vw;
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
-  background-image: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .heading {
   color: white;
@@ -43,7 +58,7 @@
   height: 100px;
   width: 100px;
   text-align: center;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 .card-container {
   border-radius: 20px;
@@ -88,4 +103,10 @@
   text-align: center;
   justify-content: center;
   padding: 20px;
+}
+.follow-us-logos :hover {
+  background-color: goldenrod;
+  border-radius: 25px;
+  width: 100px;
+  height: 100px;
 }
